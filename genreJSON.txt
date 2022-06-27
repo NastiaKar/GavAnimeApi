@@ -1,0 +1,47 @@
+{"data":
+[
+	{
+		"id":"3",
+		"type":"genres",
+		"links":
+		{
+			"self":"https://kitsu.io/api/edge/genres/3"
+		},
+		"attributes":
+		{
+			"createdAt":"2013-02-20T16:00:15.671Z",
+			"updatedAt":"2013-02-20T16:00:15.671Z",
+			"name":"Comedy",
+			"slug":"comedy",
+			"description":null
+		}
+	},
+
+	{
+		"id":"24",
+		"type":"genres",
+		"links":
+		{
+			"self":"https://kitsu.io/api/edge/genres/24"
+		},
+		"attributes":
+		{
+			"createdAt":"2013-02-20T16:00:27.537Z",
+			"updatedAt":"2013-02-20T16:00:27.537Z",
+			"name":"School",
+			"slug":"school",
+			"description":null
+		}
+	}
+],
+
+"meta":
+	{
+	"count":2
+	},
+"links":
+	{
+	"first":"https://kitsu.io/api/edge/anime/8198/genres?page%5Blimit%5D=10&page%5Boffset%5D=0",
+	"last":"https://kitsu.io/api/edge/anime/8198/genres?page%5Blimit%5D=10&page%5Boffset%5D=0"
+	}
+}
