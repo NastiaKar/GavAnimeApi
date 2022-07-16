@@ -5,8 +5,8 @@ namespace GavAnimeAPI.Clients;
 
 public interface IDynamoDbClient
 {
-    public Task<AnimeDbRepository> GetDataById(string id, string userId);
-    public Task<List<AnimeDbRepository>> GetFavoriteAnimeList(string userId);
-    public Task<bool> PutAnime(AnimeDbRepository anime);
-    public Task<bool> DeleteAnime(AnimeDbRepository anime, string userId);
+    Task<AnimeDbRepository> GetDataById(string id, string userId);
+    Task<List<AnimeDbRepository>> GetFavoriteAnimeList(string userId);
+    Task<bool> PutAnime(AnimeDbRepository anime);
+    Task<bool> DeleteAnime(AnimeDbRepository anime, string userId);
 }
